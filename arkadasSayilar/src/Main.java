@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args){
-        
+
         int sayi1 = 220;
         int sayi2 = 284;
 
