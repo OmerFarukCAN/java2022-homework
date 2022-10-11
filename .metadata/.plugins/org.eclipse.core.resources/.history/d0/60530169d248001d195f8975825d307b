@@ -1,0 +1,24 @@
+package mukemmelSayiDemo;
+
+public class Main {
+	public static void main(String[] args) {
+
+		int bolum = 0;
+		int i = 19;
+		int j = 3;
+
+		for (;i >= 2; i--) {
+			for (; j < 20; j++) {
+				if (i % j == 0) {
+					bolum += 1;	
+				}
+			}
+			if (bolum > 1) {
+				System.out.println("Sayi asal degildir." + i);
+				bolum = 0;
+			}else {
+				System.out.println("Sayi asaldir." + i);
+			}
+		}
+	}
+}

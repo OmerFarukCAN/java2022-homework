@@ -1,0 +1,12 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Today the weather is good";
+		
+		System.out.println(mesaj);
+		System.out.println(mesaj.length());
+	}
+
+}

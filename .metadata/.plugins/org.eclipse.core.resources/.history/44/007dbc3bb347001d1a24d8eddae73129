@@ -1,0 +1,24 @@
+package switchDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char grade = 'B';
+		
+		switch (grade) {
+		case 'A':
+			System.out.println("Perfect");
+			break;
+		case 'B':
+			System.out.println("Good");
+			break;
+		case 'C':
+			System.out.println("Not bad");
+		case 'F':
+			System.out.println("Bad");
+		default:
+			System.out.println("Invalid");
+			break;
+		}
+	}
+}
